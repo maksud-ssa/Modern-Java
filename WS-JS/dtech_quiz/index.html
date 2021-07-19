@@ -1,0 +1,119 @@
+<!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+      </head>
+      <body>
+      <!-- Top Section! -->
+      <div class="intro py-3 bgwhite text-center">
+        <div class="container">
+          <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+        </div>
+      </div>
+       <!-- result section -->
+      <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+          <p>You are <span class="resDisp text-primary display-4 p-3">0%</span>Ninja.</p>
+        </div>
+      </div>
+      <!-- This is Quiz Section! -->
+      <div class="quiz py-4 bg-primary">
+        <div class="container">
+          <h3 class="my-5 text-white">Lets get on with the Questions....</h3>
+          <form class="quiz-form text-light">
+            <!-- First Question Starts here -->
+            <div class="my-5">
+              <p class="lead font-weight-normal"><em>1. How do you give direction to a Ninja?</em></p>
+               <div class="form-check my-2 text-white-50">
+                 <input type="radio" value="A" name="q1" title="One-apt-one" checked>
+                 <label class="form-check-label">Show him a map.</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                <input type="radio" value="B" name="q1" title="One-apt-two">
+                <label class="form-check-label">Give him a GPS.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="C" name="q1" title="One-apt-three">
+                <label class="form-check-label">Give him direction.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="D" name="q1" title="One-apt-four">
+                <label class="form-check-label">Take him to the place.</label>
+              </div>
+            </div>
+            <!-- Second Question Starts here -->
+            <div class="my-5">
+              <p class="lead font-weight-normal"><em>2. How do you identify a Ninja?</em></p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="A" name="q2" aria-checked="true" checked>
+                <label class="form-check-label">By looking at his black outfit.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="B" name="q2" >
+                <label class="form-check-label">By the smell of a Ninja.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="C" name="q2" >
+                <label class="form-check-label">By the ninja dress.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="D" name="q2" >
+                <label class="form-check-label">By talking to him.</label>
+              </div>
+            </div>
+
+            <!-- Third Question Starts here -->
+            <div class="my-5">
+              <p class="lead font-weight-normal"><em>3. If a Ninja owes you an apple, how many do you have left?</em></p>
+               <div class="form-check my-2 text-white-50">
+                 <input type="radio" value="A" name="q3" checked aria-checked="true">
+                 <label class="form-check-label">One Apple.</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                <input type="radio" value="B" name="q3" >
+                <label class="form-check-label">Two apples and an orange.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="C" name="q3" >
+                <label class="form-check-label">Nothing but the corpses.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="D" name="q3" >
+                <label class="form-check-label">Ninja's like to share.</label>
+              </div>
+            </div>
+            <!-- fourth Question Starts here -->
+            <div class="my-5">
+              <p class="lead font-weight-normal"><em>4. What is a Ninjas favorite Array method?</em></p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="A" name="q4" checked aria-checked="true">
+                <label class="form-check-label">ForEach().</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="B" name="q4" >
+                <label class="form-check-label">DoWhile().</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="C" name="q4" >
+                <label class="form-check-label">ForLoop.</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" value="D" name="q4" >
+                <label class="form-check-label">None of the above.</label>
+              </div>
+              <input type="submit" class="btn btn-light">
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <script src="app.js"></script>
+      </body>
+    </html>
